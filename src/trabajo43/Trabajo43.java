@@ -15,8 +15,12 @@ public class Trabajo43 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         Persona yo=new Persona(41664249,"Juan");
+        
         Celular lg=new Celular("Claro",4304897,"Zero","LG");
+        
+        
         yo.llamarMensajear(lg, 4557892, "");
         yo.llamarMensajear(lg, 4557892, "Hola");
     }
