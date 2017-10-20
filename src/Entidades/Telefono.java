@@ -9,6 +9,17 @@ package Entidades;
  *
  * @author Franco
  */
-public class Telefono {
+public abstract class Telefono {
+    private long numero;
+    private String modelo;
+    private String marca;
+
+    public Telefono(long numero, String modelo, String marca) {
+        this.numero = numero;
+        this.modelo = modelo;
+        this.marca = marca;
+    }
+    
+    public abstract boolean llamar(long nroDestino);
     
 }
