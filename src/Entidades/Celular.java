@@ -13,7 +13,7 @@ public class Celular extends Telefono{
     private String empresa;
 
     public Celular(String empresa, long numero, String modelo, String marca){
-        super();
+        super(numero, modelo, marca);
         this.empresa=empresa;
     }
 
